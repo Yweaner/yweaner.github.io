@@ -1,32 +1,32 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: 首页
   url: ""
 
-- title: About
+- title: 关于
   url: "about/"
 
-- title: Contact
+- title: 联系
   url: "contact/"
 
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  class: "ml-2 btn btn-dark text-white px-3"
-  external: true
+#- title: Get this theme
+#  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+#  class: "ml-2 btn btn-dark text-white px-3"
+#  external: true
 
 # Footer Menu
 footermenu:
 
-- title: Home
+- title: 首页
   url: ""
 
-- title: Privacy Policy
+- title: 隐私条款
   url: "privacy-policy/"
 
-- title: Contact
+- title: 联系我们
   url: "contact/"
 
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
+#- title: Download
+#  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+#  external: true
