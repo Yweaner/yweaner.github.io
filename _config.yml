@@ -1,0 +1,113 @@
+# Hexo配置文件
+## 文档: https://hexo.io/docs/configuration.html
+## 源码: https://github.com/hexojs/hexo/
+
+# 网站基本信息
+title: 洛阳衣裳                    # 网站标题
+subtitle: '洛阳千年，衣裳万种'    # 网站副标题   # 网站描述，用于SEO
+# ... existing code ...
+
+description: '专注于分享VPS服务器搭建、个人网站建设、网络技术教程的技术博客。提供详细的Vultr VPS购买指南、Nginx服务器配置、SSL证书申请、域名管理、建站教程等实用内容。同时涵盖网站性能优化、安全防护、CloudFlare配置等运维知识，助你轻松搭建并维护自己的独立网站。'
+
+# ... existing code ...
+keywords: VPS搭建, Vultr教程, 个人网站搭建, 域名购买, Nginx配置, SSL证书, 科学上网教程, Hexo博客, 静态网站部署, 网站安全配置, 服务器优化, 建站教程, 独立博客, 网站备案, 境外服务器, 美国VPS, 服务器运维, 域名解析, 网站性能优化, CloudFlare配置
+
+# ... existing code ...    # 网站关键词，用于SEO
+author: Jack Chang               # 作者名称
+# language: en                  # 网站语言，英文
+language: zh-CN                 # 网站语言，简体中文
+# timezone: 'America/New_York'  # 时区，美国纽约
+timezone: 'Asia/Shanghai'       # 时区，中国上海
+
+# 网址设置
+## 设置你的网站URL。例如，如果你使用GitHub Pages，设置URL为'https://username.github.io/project'
+url: https://yweaner.github.io/blog.github.io/    # 网站URL
+permalink: :year/:month/:day/:title/    # 文章的永久链接格式
+permalink_defaults:                     # 永久链接默认值
+pretty_urls:
+  trailing_index: true    # 设置为false可以去掉链接末尾的'index.html'
+  trailing_html: true     # 设置为false可以去掉链接末尾的'.html'
+
+# 目录设置
+source_dir: source         # 源文件目录
+public_dir: public        # 生成的静态文件目录
+tag_dir: tags            # 标签目录
+archive_dir: archives    # 归档目录
+category_dir: categories # 分类目录
+code_dir: downloads/code # 代码目录
+i18n_dir: :lang         # 国际化目录
+skip_render:            # 跳过渲染的文件或目录
+
+# 写作设置
+new_post_name: :title.md  # 新文章的文件名格式
+default_layout: post      # 默认布局
+titlecase: false          # 是否将标题转换为首字母大写
+external_link:
+  enable: true           # 在新标签页中打开外部链接
+  field: site            # 应用于整个网站
+  exclude: ''            # 排除的链接
+filename_case: 0         # 文件名转换为(1)小写或(2)大写
+render_drafts: false     # 是否渲染草稿
+post_asset_folder: false # 是否启用资源文件夹
+relative_link: false     # 是否创建相对链接
+future: true             # 是否显示未来的文章
+syntax_highlighter: highlight.js    # 代码高亮引擎
+highlight:               # 代码高亮设置
+  line_number: true      # 显示行号
+  auto_detect: false     # 自动检测语言
+  tab_replace: ''        # 替换tab的内容
+  wrap: true            # 是否换行
+  hljs: false           # 是否使用hljs
+prismjs:                # prismjs高亮设置
+  preprocess: true      # 是否预处理
+  line_number: true     # 显示行号
+  tab_replace: ''       # 替换tab的内容
+
+# 首页设置
+# path: 博客索引页的根路径（默认=''）
+# per_page: 每页显示的文章数量（0=禁用分页）
+# order_by: 文章排序方式（默认按日期降序）
+index_generator:
+  path: ''              # 主页路径
+  per_page: 10          # 每页文章数
+  order_by: -date       # 排序方式
+
+# 分类 & 标签
+default_category: uncategorized    # 默认分类
+category_map:                      # 分类别名
+tag_map:                          # 标签别名
+
+# 元数据元素
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true              # 是否生成meta标签
+
+# 日期 / 时间格式
+## Hexo使用Moment.js解析和显示日期
+## 你可以按照 http://momentjs.com/docs/#/displaying/format/ 定义的格式来定制
+date_format: YYYY-MM-DD           # 日期格式
+time_format: HH:mm:ss            # 时间格式
+## updated_option支持'mtime'（文件修改时间）,'date'（日期）,'empty'（空）
+updated_option: 'mtime'          # 更新时间选项
+
+# 分页设置
+## 设置per_page为0来禁用分页
+per_page: 10                     # 每页显示的文章数量
+pagination_dir: page             # 分页目录
+
+# 包含/排除文件
+## include:/exclude: 选项仅适用于'source/'文件夹
+include:                         # 包含的文件
+exclude:                         # 排除的文件
+ignore:                         # 忽略的文件
+
+# 扩展
+## 插件: https://hexo.io/plugins/
+## 主题: https://hexo.io/themes/
+theme: hueman                    # 使用的主题
+
+# 部署设置
+## 文档: https://hexo.io/docs/one-command-deployment
+deploy:                         # 部署配置
+    type: git
+    repo: https://github.com/Yweaner/blog.github.io.git
+    branch: gh-pages
