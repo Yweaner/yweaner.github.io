@@ -21,7 +21,7 @@ timezone: 'Asia/Shanghai'       # 时区，中国上海
 
 # 网址设置
 ## 设置你的网站URL。例如，如果你使用GitHub Pages，设置URL为'https://username.github.io/project'
-url: https://yweaner.github.io/blog.github.io/    # 网站URL
+url: https://yweaner.github.io/    # 网站URL
 permalink: :year/:month/:day/:title/    # 文章的永久链接格式
 permalink_defaults:                     # 永久链接默认值
 pretty_urls:
@@ -108,6 +108,3 @@ theme: hueman                    # 使用的主题
 # 部署设置
 ## 文档: https://hexo.io/docs/one-command-deployment
 deploy:                         # 部署配置
-    type: git
-    repo: https://github.com/Yweaner/blog.github.io.git
-    branch: gh-pages
