@@ -9,7 +9,7 @@ menu:
 # Customize (主题自定义配置)
 customize:
     logo:
-        width: 315 # logo宽度
+        width: 337 # logo宽度
         height: 90 # logo高度
         url: images/logo-header.png # logo图片路径
     theme_color: '#006bde' # 主题主色调
