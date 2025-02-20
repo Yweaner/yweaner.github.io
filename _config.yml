@@ -3,8 +3,8 @@
 ## 源码: https://github.com/hexojs/hexo/
 
 # 网站基本信息
-title: 洛阳衣裳                    # 网站标题
-subtitle: '洛阳千年，衣裳万种'    # 网站副标题   # 网站描述，用于SEO
+title: 洛阳逸赏                    # 网站标题
+subtitle: '喜欢洛阳的技术小站'    # 网站副标题   # 网站描述，用于SEO
 # ... existing code ...
 
 description: '专注于分享VPS服务器搭建、个人网站建设、网络技术教程的技术博客。提供详细的Vultr VPS购买指南、Nginx服务器配置、SSL证书申请、域名管理、建站教程等实用内容。同时涵盖网站性能优化、安全防护、CloudFlare配置等运维知识，助你轻松搭建并维护自己的独立网站。'
