@@ -84,7 +84,7 @@ comment:
         owner: Yweaner # GitHub用户名
         repo: gitalk-comments # GitHub仓库名
         client_id: Ov23liNzml68fUUSkoxx # OAuth应用客户端ID
-        client_secret: 3f112221ca27cc64a930b5c11234bcc1cfe640be # OAuth应用密钥
+        client_secret: 509407a0fcb49d887747393a259761b2df7c24fb # OAuth应用密钥
         admin: Yweaner # 可初始化评论的GitHub用户
         id: location.pathname # 页面唯一标识
 
